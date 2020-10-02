@@ -1,0 +1,23 @@
+{
+    "name": "supaDupaRedirect",
+    "description": "Lead Generator",
+    "type": "project",
+    "license": "top-secret",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Egor Stepanov",
+            "email": "kayuga@bk.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "psr/log": "*",
+        "vladimir163/lead-generator": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "": ""
+        }
+    }
+}
